@@ -43,9 +43,9 @@ class createattr extends React.Component {
 
     return (
       <div>
-        {!this.state.showComponent ? (
+        {/*!this.state.showComponent ? (
           <CreateEntity doOnClick={this.doattronclick} />
-        ) : null}
+        ) : null*/}
         {!this.state.showComponent ? (
           <FlatTable header={header} data={this.state.data} />
         ) : null}
